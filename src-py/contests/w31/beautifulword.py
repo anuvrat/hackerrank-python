@@ -1,9 +1,7 @@
-from collections import namedtuple
+#!/bin/python3
 
 vowels = "aeiouy"
 consonants = "bcdfghjklmnpqrstvwyxz"
-
-Input = namedtuple('Input', ['word', 'expected'])
 
 
 class BeautifulWord(object):
