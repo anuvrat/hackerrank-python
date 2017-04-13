@@ -2,7 +2,7 @@ import unittest
 from contests.w31.beautifulword import BeautifulWord
 
 
-class TestStringMethods(unittest.TestCase):
+class TestBeautifulWord(unittest.TestCase):
     def test_1(self):
         w = 'abacaba'
         self.assertTrue(BeautifulWord().is_beautiful(w))
